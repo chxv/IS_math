@@ -61,7 +61,6 @@ def bezout(p):
     print(f'\t{S} * {_b} + {T} * {_a}')
  
     print('\n s,t 分别为  ',S,T)    
-    
 
 
 if __name__ == "__main__":
