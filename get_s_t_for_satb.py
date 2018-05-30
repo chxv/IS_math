@@ -20,10 +20,9 @@ def bezout(p):
     great_factor=p[-2][-1]
     a=p[0][0]
     b=p[0][1]
-    print(f'由广义欧几里得的计算方法可知:\n{great_factor} = ',
-            end='')
+    print(f'由广义欧几里得的计算方法可知:\n{great_factor} = ', end='')
     
-    l=len(p)
+    l = len(p)
     S, T = 1, 0
     
     if l > 3:
